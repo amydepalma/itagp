@@ -25,6 +25,9 @@ define('ITAGP_CURRENT_VERSION', '1.0');
 /**
  * Add rest of functionality
  */
-require_once ITAGP_PATH . 'inc/disable-comments.php';
-require_once ITAGP_PATH . 'inc/post-types.php';
-require_once ITAGP_PATH . 'inc/admin.php';
+require_once ITAGP_PATH . 'functions/common.php';
+require_once ITAGP_PATH . 'functions/disable-comments.php';
+require_once ITAGP_PATH . 'functions/setup-admin.php';
+
+require_once ITAGP_PATH . 'includes/taxonomies.php';
+require_once ITAGP_PATH . 'includes/post-types.php';
