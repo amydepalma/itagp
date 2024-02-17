@@ -29,8 +29,8 @@
         },
         {
             "key": "field_65c8dc95750aa",
-            "label": "Preferred Brand",
-            "name": "preferred_brand",
+            "label": "Preferred Brands",
+            "name": "preferred_brands",
             "aria-label": "",
             "type": "taxonomy",
             "instructions": "",
@@ -119,5 +119,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1707886227
+    "modified": 1708186376
 }
