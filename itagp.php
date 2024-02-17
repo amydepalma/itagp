@@ -25,9 +25,11 @@ define('ITAGP_CURRENT_VERSION', '1.0');
 /**
  * Add rest of functionality
  */
-require_once ITAGP_PATH . 'functions/common.php';
-require_once ITAGP_PATH . 'functions/disable-comments.php';
-require_once ITAGP_PATH . 'functions/setup-admin.php';
 
-require_once ITAGP_PATH . 'includes/taxonomies.php';
-require_once ITAGP_PATH . 'includes/post-types.php';
+foreach(glob(ITAGP_PATH . "functions/*.php") as $file){
+    require_once $file;
+}
+
+foreach(glob(ITAGP_PATH . "includes/*.php") as $file){
+	require_once $file;
+}
