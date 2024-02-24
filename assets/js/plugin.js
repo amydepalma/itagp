@@ -1,0 +1,1 @@
+import 'sortable-tablesort/sortable.min.js'

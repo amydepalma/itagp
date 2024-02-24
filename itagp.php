@@ -20,7 +20,7 @@ if (!defined('ITAGP_PATH')) {
     define('ITAGP_PATH', plugin_dir_path(__FILE__));
 }
 
-define('ITAGP_CURRENT_VERSION', '1.0');
+define('ITAGP_VERSION', '1.0');
 
 /**
  * Add rest of functionality

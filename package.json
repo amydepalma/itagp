@@ -1,0 +1,19 @@
+{
+  "name": "itagp",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "modern-normalize": "^2.0.0",
+    "parcel": "^2.9.3",
+    "sortable-tablesort": "^3.2.2"
+  },
+  "scripts": {
+    "clean": "rm -rf dist/* && rm -rf .parcel-cache",
+    "dev": "npm run clean && parcel watch assets/js/plugin.js assets/scss/plugin.scss assets/images/* --no-source-maps",
+    "build": "npm run clean && parcel build assets/js/plugin.js assets/scss/plugin.scss assets/images/* --no-source-maps"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "author": "Amy DePalma",
+  "license": "ISC"
+}
