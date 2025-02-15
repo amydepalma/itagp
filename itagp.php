@@ -26,10 +26,10 @@ define('ITAGP_VERSION', '1.0');
  * Add rest of functionality
  */
 
-foreach(glob(ITAGP_PATH . "functions/*.php") as $file){
-    require_once $file;
+foreach ( glob( ITAGP_PATH . "functions/*.php" ) as $file ) {
+	require_once $file;
 }
 
-foreach(glob(ITAGP_PATH . "includes/*.php") as $file){
+foreach ( glob( ITAGP_PATH . "includes/*.php" ) as $file ) {
 	require_once $file;
 }
